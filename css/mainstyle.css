@@ -5,6 +5,28 @@ html
 
 	}
 
+	.leftmenu {
+		height: 100px;
+		width: 120px;
+		border:1px solid grey;
+		background-image:url("../images/cta.jpg") ;
+		margin-left: 10px;
+		margin-top: 90px;
+		text-decoration: none;
+	}
+	#leftsidebarmen{padding: 30px 10px}
+
+	#leftsidebarmen a{
+		border-radius:5px;
+		border: 1px solid red;
+		background-color: red;
+		margin-bottom: 10px;
+		width: 100px;
+		height: 50px;
+		text-decoration: none;
+		color: white;
+	}
+
 	button[type=button]{
 				color: black;
 				background-color:#D5DBDB ;
@@ -91,9 +113,9 @@ html
 		width: 10%;
 		position: fixed;
 		float: left;
-		background-color: pink;
+		background-color: url("../images/cta.jpg");
+		
 	}
-
 
 	#midcontent{
 		float: left;
