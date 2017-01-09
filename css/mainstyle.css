@@ -58,13 +58,7 @@ html
 		float: left;
 		background-color: pink;
 	}
-	#leftsidebarmenu{
-		height: 50%;
-		width: 10%;
-		background-color: white	}
-	#meetcrew:hover{display: block;height: 50%;
-		width: 10%;
-		background-color: white;}
+
 
 	#midcontent{
 		float: left;
@@ -129,10 +123,31 @@ html
 		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.3) inset;
 	}
 
-	.castimages img:hover{
+	.castimages2 img{
+		width: 200px;
+		height: 200px;
+		border-radius: 50% 50%;
+		padding: 5px 0 0 5px;
+		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+	}
+
+	.castimages3 img{
+		width: 200px;
+		height: 200px;
+		border-radius: 50% 50%;
+		padding: 5px 0 0 5px;
+		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+	}
+	.castimages img:hover {
+		opacity: 0.3;
+	}
+	.castimages2 img:hover{
 		opacity: 0.3;
 	}
 
+	.castimages3 img:hover{
+		opacity: 0.3;
+	}
 	.socialico{
 
 				width: 30px;
