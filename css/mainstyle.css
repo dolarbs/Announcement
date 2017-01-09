@@ -5,6 +5,41 @@ html
 
 	}
 
+	button[type=button]{
+				color: black;
+				background-color:#D5DBDB ;
+				padding: 5px;
+				border-radius: 5px;
+				height: 30px;
+				width: 70px;
+				margin-top: 10px;
+			}
+
+			button[type=button]:hover{
+				background-color:#27AE60;
+				color: white;
+				cursor:hand;
+			}
+
+			input[type=text]{
+				margin-bottom: 20px;
+				line-height: unset;
+			}
+
+			input[type=text]:focus{
+				transition: 2s;
+				background-color:pink;
+			}
+
+			form{
+				border-radius: 10px;
+				border: 3px solid #F8F9F9;
+				padding:15px 5px 5px 10;
+				background-color: white;
+				font-style:italic;
+
+			}
+
 	body
 	{
 		/**background-color:rgba(149,183,203,0.5);**/
@@ -190,6 +225,14 @@ html
 		height:30px;
 		width: 100px;
 
+	}
+
+	#castbtn{
+		background-color: red;
+		border: 1px solid grey;
+			-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+		height:30px;
+		width: 100px;
 	}
 
 	.slider-holder
