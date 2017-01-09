@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Announcement</title>
+	<style>
+		body {
+		  margin: 0;
+		  /**background: #000; **/
+		}
+		  h1{
+		color: red;}
+	background-color: white	}
+		}
+		video { 
+		    position: fixed;
+		    top: 50%;
+		    left: 50%;
+		    min-width: 100%;
+		    min-height: 100%;
+		    width: auto;
+		    height: auto;
+		    z-index: -100;
+		    transform: translateX(-50%) translateY(-50%);
+		 background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+		  background-size: cover;
+		  transition: 1s opacity;
+		}
+		.stopfade { 
+		   opacity: .5;
+		}
+	</style>
+</head>
+
+
+<body>
+	<center>
+			<header>
+			<div><h1>COMMING TO AMERICA</h1>
+				<marquee id="releaseDate" onMouseOver="this.scrollAmount=1" onMouseOut="this.scrollAmount=1" scrollamount="2" direction="left" loop="true"  height="250" widht="10">
+								Release date : June 29 1988(USA). &nbsp &nbsp Director : 
+								<a href="https://en.wikipedia.org/wiki/John_Landis"> John Landis</a>. &nbsp &nbsp 
+								Story : <a href="https://en.wikipedia.org/wiki/Eddie_Murphy"> Eddy Murphy</a>. &nbsp &nbsp 
+								Screenplay: <a href="https://en.wikipedia.org/wiki/David_Sheffield"> David Sheffield</a>, 
+								<a href="https://en.wikipedia.org/wiki/Barry_W._Blaustein"> Barry W Blaustein</a>.
+							</marquee>
+			
+			</div>
+		</header>
+		<div id="mainDiv">
+			<center>
+				<div>
+				</div>
+			</center>
+			
+		</div>
+	</center>
+	<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+	<source src="videos/comingtoamericaoldmen.mp4" type="video/mp4">
+	
+</video>
+
+
+
+
+</body>
+</html>
